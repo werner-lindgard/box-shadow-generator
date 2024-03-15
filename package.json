@@ -1,0 +1,27 @@
+{
+  "name": "box-shadow-generator",
+  "version": "1.0.0",
+  "description": "A simple Box Shadow generator application",
+  "main": "index.js",
+  "author": "Werner Lindgård",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "parcel src/index.html -p 4001 --open chrome"
+  },
+  "alias": {
+    "src": "./src"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "styled-components": "^6.0.4"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.14",
+    "@types/react-dom": "^18.2.7",
+    "@types/styled-components": "^5.1.26",
+    "parcel": "^2.9.3",
+    "process": "^0.11.10"
+  }
+}

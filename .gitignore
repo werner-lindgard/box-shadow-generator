@@ -1,0 +1,6 @@
+# Dependencies
+node_modules
+
+# Temp folders
+.parcel-cache
+dist
